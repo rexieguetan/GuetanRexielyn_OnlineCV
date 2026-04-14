@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rexielyn S. Guetan | Interactive Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="resume-container">
+        <nav class="sidebar">
+            <div class="sidebar-top">
+                <div class="sidebar-profile-img">
+                    <img src="image/profile.jpg" alt="Rexie Guetan">
+                </div>
+                <h2>REXIELYN S. GUETAN</h2>
+                <span class="sub-text">IT Student</span>
+            </div>
+            
+            <ul class="nav-links">
+                <li class="active" id="btn-about" onclick="showSection('about')">About <i class="fas fa-chevron-right"></i></li>
+                <li id="btn-education" onclick="showSection('education')">Education</li>
+                <li id="btn-skills" onclick="showSection('skills')">Skills</li>
+                <li id="btn-experience" onclick="showSection('experience')">PRE - PROFESSIONAL EXPERIENCE</li>
+                <li id="btn-project" onclick="showSection('project')">ACADEMIC PROJECT</li>
+                <li id="btn-certificates" onclick="showSection('certificates')">Certificates</li>
+            </ul>
+
+            <div class="sidebar-footer">
+                <div class="contact-details">
+                    <p><i class="fas fa-envelope"></i> rexieguetan@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> (+63)9519751559</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Taromata 1, Bulan, Sorsogon</p>
+                </div>
+            </div>
+        </nav>
+
+        <main class="content-area">
+            
+            <section id="about" class="content-section active">
+                <h2 class="section-title">ABOUT</h2>
+                <div class="about-flex-container">
+                    <div class="about-text-content">
+                        <div class="name-heading">
+                            <h1>REXIELYN</h1>
+                            <h1 class="surname">GUETAN</h1>
+                            <p class="job-title">IT Professional</p>
+                        </div>
+                        <div class="objective-box">
+                            <h3>Career Objective</h3>
+                            <p>Highly motivated and dependable fresh graduate eager to contribute, learn quickly, and deliver quality work while growing professionally and supporting the goals of the organization.</p>
+                        </div>
+                    </div>
+                    <div class="profile-image-container">
+                        <div class="image-rect-frame">
+                            <img src="image/profile.jpg" alt="Rexie Guetan Profile">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="education" class="content-section">
+                <h2 class="section-title">EDUCATION</h2>
+                <div class="education-timeline">
+                    <div class="timeline-line"></div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <span class="year">2022 - 2026</span>
+                        <h3>Bachelor of Science in Information Technology</h3>
+                        <p>Sorsogon State University - Bulan Campus</p>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <span class="year">2020 - 2022</span>
+                        <h3>General Academic Strand (GAS)</h3>
+                        <p>Alcoba National High School</p>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <span class="year">2016 - 2020</span>
+                        <h3>Junior High School</h3>
+                        <p>Alcoba National High School</p>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <span class="year">2010 - 2016</span>
+                        <h3>Elementary School</h3>
+                        <p>Taromata 1 Elementary School</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="content-section">
+                <h2 class="section-title">SKILLS</h2>
+                <div class="skills-rows-container">
+                    <div class="skills-row">
+                        <h3 class="skills-subtitle">Technical Skills</h3>
+                        <div class="card">
+                            <ul class="skill-bullets">
+                                <li><strong>Microsoft Office:</strong> Word, Excel, PowerPoint, Google Docs, Google Sheets</li>
+                                <li><strong>Creative:</strong> Canva (Presentations, Infographics, Visual Content)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="skills-row">
+                        <h3 class="skills-subtitle">Soft Skills</h3>
+                        <div class="card">
+                            <ul class="skill-bullets">
+                                <li>Dependable and responsible in completing tasks.</li>
+                                <li>Strong verbal and interpersonal communication.</li>
+                                <li>Team player with ability to collaborate and lead.</li>
+                                <li>Open-minded and quick to learn new methods.</li>
+                                <li>Detail-oriented with good time management.</li>
+                                <li>Adaptable and flexible in dynamic environments.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="experience" class="content-section">
+                <h2 class="section-title">PRE - PROFESSIONAL EXPERIENCE</h2>
+
+                <div class="horizontal-timeline">
+                    <div class="line-connector"></div>
+                    
+                    <div class="exp-item">
+                        <div class="exp-dot"></div>
+                        <div class="exp-content">
+                            <h3>Support Staff</h3>
+                            <span class="exp-sub">DICT (Dept. of Information & Communications Technology)</span>
+                            <p class="exp-date">2026</p>
+                            <ul class="exp-details">
+                                <li>Assisted with office tasks, including filing, data encoding, and record management.</li>
+                                <li>Created visual content using Canva to support various projects.</li>
+                                <li>Participated in on-field activities promoting DICT programs.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="exp-item">
+                        <div class="exp-dot"></div>
+                        <div class="exp-content">
+                            <h3>Resource Speaker</h3>
+                            <span class="exp-sub">CICT Congress 2026</span>
+                            <p class="exp-date">2026</p>
+                            <ul class="exp-details">
+                                <li>Served as a resource speaker at the CICT Congress 2026 held at Sorsogon State University - Bulan Campus, presenting the DICT flagship program, the eGovPH Super App, and fostering awareness of digital government services among participants.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="exp-item">
+                        <div class="exp-dot"></div>
+                        <div class="exp-content">
+                            <h3>SK Secretary</h3>
+                            <span class="exp-sub">Sangguniang Kabataan Taromata</span>
+                            <p class="exp-date">2024 - 2026</p>
+                            <ul class="exp-details">
+                                <li>Ensured the proper maintenance and documentation of official records and minutes of SK meetings and activities.</li>
+                                <li>Assisted in organizing community events and programs.</li>
+                                <li>Supported the planning and execution of youth development initiatives.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="project" class="content-section">
+                <h2 class="section-title">ACADEMIC PROJECT</h2>
+                <div class="card project-card-clean">
+                    <h3 class="project-header-title">Centralized Church Management System for JIL Sorsogon</h3>
+                    <p class="project-role-text">System Analyst</p>
+                    <div class="project-divider"></div>
+                    <p class="project-description-text">
+                        Conducted requirement analysis, developed UML diagrams, documented system specifications, and collaborated with stakeholders to support the design and testing of a church data management system.
+                    </p>
+                </div>
+            </section>
+
+            <section id="certificates" class="content-section">
+                <h2 class="section-title">CERTIFICATES</h2>
+                <div class="certificate-grid">
+                    <div class="card cert-card" onclick="openModal('image/digital_cert.jpg')">
+                        <div class="cert-img-holder">
+                            <img src="image/digital_cert.jpg" alt="Create Digital Content">
+                            <div class="cert-overlay"><i class="fas fa-search-plus"></i></div>
+                        </div>
+                        <h3>Create Digital Content, Communicate, and Collaborate Online</h3>
+                    </div>
+                    <div class="card cert-card" onclick="openModal('image/excel_cert.jpg')">
+                        <div class="cert-img-holder">
+                            <img src="image/excel_cert.jpg" alt="Microsoft Excel Fundamentals">
+                            <div class="cert-overlay"><i class="fas fa-search-plus"></i></div>
+                        </div>
+                        <h3>Microsoft Excel Fundamentals</h3>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <div id="certModal" class="modal" onclick="closeModal()">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="fullCertImage">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
